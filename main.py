@@ -19,6 +19,7 @@ czml_collection = db['czml']
 
 app = Flask("tleapp")
 
+sats = ['document' ,'Satellite/AIM', 'Satellite/TERRA', 'Satellite/AQUA', 'Satellite/AURA', 'Satellite/GOES 14', 'Satellite/GOES 15', 'Satellite/GOES 16', 'Satellite/GOES 17', 'Satellite/HST', 'Satellite/ICESAT-2', 'Satellite/IMAGE', 'Satellite/IRIS', 'Satellite/LANDSAT 7', 'Satellite/LANDSAT 8', 'Satellite/METOP-A', 'Satellite/METOP-B', 'Satellite/METOP-C', 'Satellite/NUSTAR', 'Satellite/OCO 2', 'Satellite/SMAP', 'Satellite/SORCE', 'Satellite/SWAS', 'Satellite/SWIFT', 'Satellite/TDRS 10', 'Satellite/TDRS 11', 'Satellite/TDRS 12', 'Satellite/TDRS 13', 'Satellite/TDRS 3', 'Satellite/TDRS 5', 'Satellite/TDRS 6', 'Satellite/TDRS 7', 'Satellite/TDRS 8', 'Satellite/TDRS 9', 'Satellite/THEMIS A', 'Satellite/THEMIS D', 'Satellite/THEMIS E', 'Satellite/HINODE (SOLAR-B)', 'Satellite/ISS (ZARYA)']
 
 @app.route("/")
 def index():
@@ -42,10 +43,9 @@ def get_orbit(id):
 def get_orbits():
     return Response(json_util.dumps(czml_collection.aggregate([
         {'$match': {
-            'id': {'$regex': '^((?!deb)(?!r/b).)*$', '$options': 'i'}}},
+            'id': {'$in': sats}}},
         {'$limit': 100}
     ])), status=200, content_type="application/json")
-
 
 if __name__ == "__main__":
     app.run()

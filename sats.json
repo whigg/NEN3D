@@ -1,0 +1,578 @@
+{
+    "ACE": {
+        "description": "ACE observes particles of solar, interplanetary, interstellar, and galactic origins, spanning the energy range from solar wind ions to galactic cosmic ray nuclei.",
+        "image": "assets/mission/ace.jpg",
+        "launch": "August 25, 1997",
+        "name": "Advanced Composition Explorer",
+        "cid": "",
+        "url": "https://science.nasa.gov/missions/ace"
+    },
+    "AIM": {
+        "description": "AIM is dedicated to the study of noctilucent or “night-shining” clouds (NLCs) also called Polar Mesospheric clouds (PMCs), also called noctilucent clouds, to find out why they form and why they are changing.",
+        "image": "assets/mission/AIM.jpg",
+        "launch": "April 25, 2007",
+        "name": "Aeronomy of Ice in the Mesosphere Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/aim/index.html"
+    },
+    "AM1": {
+        "description": "Terra is designed to monitor the state of Earth's environment and ongoing changes in its climate system. It's five state-of-the-art sensors have been studying the interactions among the Earth's atmosphere, lands, and radiant energy.",
+        "image": "assets/mission/AM1.jpg",
+        "launch": "December 18, 1999",
+        "name": "Terra",
+        "cid": "",
+        "url": "https://terra.nasa.gov/"
+    },
+    "AQUA": {
+        "description": "The satellite has six different Earth-observing instruments collecting data about our Earth's water cycle, including evaporation from the oceans, water vapor in the atmosphere, clouds, precipitation, soil moisture, sea ice, land ice, and snow cover on the land and ice.",
+        "image": "assets/mission/AQA.jpg",
+        "launch": "May 4, 2002",
+        "name": "Aqua",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/aqua/index.html"
+    },
+    "AURA": {
+        "description": "Aura's four instruments obtain measurements of ozone, aerosols and key gases throughout the atmosphere.",
+        "image": "assets/mission/AUR.jpg",
+        "launch": "July 15, 2004",
+        "name": "Aura",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/aura/main/index.html"
+    },
+    "CO1": {
+        "description": "Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) is a program designed to provide advances in meteorology, ionospheric research, climatology, and space weather by using GPS satellites in conjunction with low Earth orbiting (LEO) satellites.",
+        "image": "assets/mission/CO1.jpg",
+        "launch": "April 15, 2006",
+        "name": "COSMIC-1",
+        "cid": "FORMOSAT-3 FM1",
+        "url": "http://www.cosmic.ucar.edu/satStatus/index.html"
+    },
+    "CO2": {
+        "description": "Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) is a program designed to provide advances in meteorology, ionospheric research, climatology, and space weather by using GPS satellites in conjunction with low Earth orbiting (LEO) satellites.",
+        "image": "assets/mission/CO.jpg",
+        "launch": "April 15, 2006",
+        "name": "COSMIC-2",
+        "cid": "FORMOSAT-3 FM2",
+        "url": "http://www.cosmic.ucar.edu/cosmic2/"
+    },
+    "CO3": {
+        "description": "Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) is a program designed to provide advances in meteorology, ionospheric research, climatology, and space weather by using GPS satellites in conjunction with low Earth orbiting (LEO) satellites.",
+        "image": "assets/mission/CO.jpg",
+        "launch": "April 15, 2006",
+        "name": "COSMIC-3",
+        "cid": "FORMOSAT-3 FM3",
+        "url": "http://www.cosmic.ucar.edu/"
+    },
+    "CO4": {
+        "description": "Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) is a program designed to provide advances in meteorology, ionospheric research, climatology, and space weather by using GPS satellites in conjunction with low Earth orbiting (LEO) satellites.",
+        "image": "assets/mission/CO.jpg",
+        "launch": "April 15, 2006",
+        "name": "COSMIC-4",
+        "cid": "FORMOSAT-3 FM4",
+        "url": "http://www.cosmic.ucar.edu/"
+    },
+    "CO5": {
+        "description": "Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) is a program designed to provide advances in meteorology, ionospheric research, climatology, and space weather by using GPS satellites in conjunction with low Earth orbiting (LEO) satellites.",
+        "image": "assets/mission/CO.jpg",
+        "launch": "April 15, 2006",
+        "name": "COSMIC-5",
+        "cid": "FORMOSAT-3 FM5",
+        "url": "http://www.cosmic.ucar.edu/"
+    },
+    "CO6": {
+        "description": "Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) is a program designed to provide advances in meteorology, ionospheric research, climatology, and space weather by using GPS satellites in conjunction with low Earth orbiting (LEO) satellites.",
+        "image": "assets/mission/CO.jpg",
+        "launch": "April 15, 2006",
+        "name": "COSMIC-6",
+        "cid": "FORMOSAT-3 FM6",
+        "url": "http://www.cosmic.ucar.edu/"
+    },
+    "COBE": {
+        "description": "COBE revolutionized our understanding of the early cosmos by precisely measuring and mapping the oldest light in the universe -- the cosmic microwave background. The results confirmed the Big Bang theory of the origin of the universe.",
+        "image": "assets/mission/COBE.gif",
+        "launch": "November 18, 1989",
+        "name": "Cosmic Background Explorer",
+        "cid": "",
+        "url": "https://science.nasa.gov/missions/cobe"
+    },
+    "DSCOVR": {
+        "description": "DSCOVR is observing and providing advance warning of particles and magnetic fields emitted by the sun which can affect power grids, communication systems, and satellites close to Earth.",
+        "image": "assets/mission/DSCO.jpg",
+        "launch": "February 11, 2015",
+        "name": "Deep Space Climate Observatory",
+        "cid": "",
+        "url": "http://www.nesdis.noaa.gov/DSCOVR/"
+    },
+    "EO1": {
+        "description": "The EO-1 mission includes three advanced land imaging instruments and five revolutionary cross cutting spacecraft technologies. The hyperspectral instrument is the first of its kind to provide images of land-surface in more than 220 spectral colors.",
+        "image": "assets/mission/EO1.jpg",
+        "launch": "November 21, 2000",
+        "name": "Earth Observing-1",
+        "cid": "",
+        "url": "http://science.nasa.gov/missions/eo-1/"
+    },
+    "FGST": {
+        "description": "This exciting mission has revolutionized our understanding of the cosmos by observing the universe in gamma-rays, the most energetic kind of light. Thanks to Fermi, scientists have learned more about fundamental physics of the cosmos, from dark matter to the nature of space-time and beyond.",
+        "image": "assets/mission/FST.jpg",
+        "launch": "June 11, 2008",
+        "name": "Fermi",
+        "cid": "FGRST (GLAST)",
+        "url": "https://www.nasa.gov/content/fermi-gamma-ray-space-telescope"
+    },
+    "GALEX": {
+        "description": "The Galaxy Evolution Explorer was an orbiting space telescope designed to observe the universe in ultraviolet wavelengths to measure the history of star formation in the universe.",
+        "image": "assets/mission/GALEX.jpg",
+        "launch": "April 28, 2003",
+        "name": "Galaxy Evolution Explorer",
+        "cid": "",
+        "url": "https://www.jpl.nasa.gov/missions/galaxy-evolution-explorer-galex/"
+    },
+    "GOES-14": {
+        "description": "GOES satellites have provided continuous imagery and data on atmospheric conditions and solar activity (space weather), and have led to more accurate and timely weather forecasts.",
+        "image": "assets/mission/GOES-14.jpg",
+        "launch": "June 27, 2009",
+        "name": "Geostationary Operational Environmental Satellite 14",
+        "cid": "",
+        "url": "https://www.nasa.gov/content/goes"
+    },
+    "GOES-15": {
+        "description": "GOES satellites have provided continuous imagery and data on atmospheric conditions and solar activity (space weather), and have led to more accurate and timely weather forecasts.",
+        "image": "assets/mission/GOES-15.jpg",
+        "launch": "March 4, 2010",
+        "name": "Geostationary Operational Environmental Satellite 15",
+        "cid": "",
+        "url": "https://www.nasa.gov/content/goes"
+    },
+    "GOES-16": {
+        "description": "GOES satellites have provided continuous imagery and data on atmospheric conditions and solar activity (space weather), and have led to more accurate and timely weather forecasts.",
+        "image": "assets/mission/GOES-16.jpg",
+        "launch": "November 19, 2016",
+        "name": "Geostationary Operational Environmental Satellite 16",
+        "cid": "",
+        "url": "https://www.nasa.gov/content/goes"
+    },
+    "GOES-17": {
+        "description": "GOES satellites have provided continuous imagery and data on atmospheric conditions and solar activity (space weather), and have led to more accurate and timely weather forecasts.",
+        "image": "assets/mission/GOES-17.jpg",
+        "launch": "March 1, 2018",
+        "name": "Geostationary Operational Environmental Satellite 17",
+        "cid": "",
+        "url": "https://www.nasa.gov/content/goes"
+    },
+    "GPB": {
+        "description": "Gravity Probe B (GP-B) confirmed two key predictions of Albert Einstein’s theory of relativity, the geodetic effect and frame-dragging, indicating that both space and time are distorted by the presence of massive objects.",
+        "image": "assets/mission/GPB.jpg",
+        "launch": "April 20, 2004",
+        "name": "Gravity Probe B",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/gpb/index.html"
+    },
+    "GPM": {
+        "description": "An International satellite mission to provide next-generation observations of rain and snow worldwide every three hours.",
+        "image": "assets/mission/GPM.jpg",
+        "launch": "February 27, 2014",
+        "name": "Global Precipitation Measurement",
+        "cid": "GPM-CORE",
+        "url": "https://www.nasa.gov/mission_pages/GPM/main/index.html"
+    },
+    "HESSI": {
+        "description": "Explore the physics of particle acceleration and energy release in solar flares",
+        "image": "assets/mission/HESSI.jpg",
+        "launch": "February 5, 2002",
+        "name": "Reuven Ramaty High Energy Solar Spectroscopic Imager",
+        "cid": "RHESSI",
+        "url": "https://hesperia.gsfc.nasa.gov/hessi/concept.htm"
+    },
+    "HST": {
+        "description": "Hubble is a space telescope launched into low Earth orbit in 1990, and remains in operation. Although not the first space telescope, Hubble is one of the largest and most versatile, and is well known as both a vital research tool and a public relations boon for astronomy.",
+        "image": "assets/mission/HST.jpg",
+        "launch": "April 24, 1990",
+        "name": "Hubble Space Telescope",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/hubble/story/index.html"
+    },
+    "IBEX": {
+        "description": "IBEX is helping us discover the nature of the interactions between the solar wind and the interstellar medium at the edge of our solar system.",
+        "image": "assets/mission/IBEX.jpg",
+        "launch": "October 19, 2008",
+        "name": "Interstellar Boundary Explorer",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/ibex/index.html"
+    },
+    "IC2": {
+        "description": "ICESat-2 (Ice, Cloud and land Elevation Satellite) uses a spacebourne sensor to collect altimetry data of the Earth's surface optimized to measure ice sheet elevation change and sea ice thickness, while also generating an estimate of global vegetation biomass.",
+        "image": "assets/mission/IC2.jpg",
+        "launch": "September 15, 2018",
+        "name": "ICESat-2",
+        "cid": "",
+        "url": "https://www.nasa.gov/content/goddard/icesat-2"
+    },
+    "ICON": {
+        "description": "Designed to investigate the forces at play in the near-space environment, leading the way in understanding disturbances that can lead to severe interference with communications and GPS signals.",
+        "image": "assets/mission/ICON.jpg",
+        "launch": "2017",
+        "name": "Ionospheric Connection Explorer",
+        "cid": "",
+        "url": "https://www.nasa.gov/icon"
+    },
+    "IMAGE": {
+        "description": "IMAGE was the first sattelite mission dedicated to measuring the Earth's magnetosphere. IMAGE was recently re-discovered 13 years after failing to respond in 2005.",
+        "image": "assets/mission/IMAGE.jpg",
+        "launch": "March 25, 2000",
+        "name": "Imager for Magnetopause-to-Aurora Global Exploration",
+        "cid": "",
+        "url": "https://image.gsfc.nasa.gov/"
+    },
+    "IRIS": {
+        "description": "IRIS observes how solar material moves, gathers energy, and heats up as it travels through a little-understood region in the sun's lower atmosphere.",
+        "image": "assets/mission/IRI.jpg",
+        "launch": "June 27, 2013",
+        "name": "Interface Region Imaging Spectrograph",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/iris/index.html"
+    },
+    "ISS": {
+        "description": "The international space station, or a habitable artificial satellite, in low Earth orbit. It is the size of a football field and serves as a microgravity and space environment research lab where crew members conduct experiments in biology, human biology, physics, astronomy, meteorology, and other fields.",
+        "image": "assets/mission/ISS.jpg",
+        "launch": "November 20, 1998",
+        "name": "International Space Station",
+        "cid": "ISS (ZARYA)",
+        "url": "https://www.nasa.gov/mission_pages/station/main/index.html"
+    },
+    "JA2": {
+        "description": "Jason 2 is an Earth satellite designed to make observations of ocean topography for investigations into sea-level rise and the relationship between ocean circulation and climate change.",
+        "image": "assets/mission/JA2.jpeg",
+        "launch": "June 20, 2008",
+        "name": "JASON 2",
+        "cid": "JASON-2 (OSTM)",
+        "url": "https://www.nasa.gov/mission_pages/ostm/overview/index.html"
+    },
+    "LAD": {
+        "description": "LADEE orbits the moon to gather detailed information about the lunar atmosphere, conditions near the surface and environmental influences on lunar dust to help scientists understand planetary bodies.",
+        "image": "assets/mission/LAD.jpg",
+        "launch": "September 6, 2013",
+        "name": "Lunar Atmosphere and Dust Environment Explorer",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/ladee/main/index.html"
+    },
+    "LRO": {
+        "description": "The Lunar Reconnaissance Orbiter is a NASA robotic spacecraft currently orbiting the Moon. Data collected by LRO is essential for planing future human and robotic missions to the moon.",
+        "image": "assets/mission/LRO.jpg",
+        "launch": "June 18, 2009",
+        "name": "Lunar Recon Orbiter",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/LRO/main/index.html"
+    },
+    "LS7": {
+        "description": "Landsat is observing and measuring Earth's continental and coastal landscapes at a scale where human impacts and natural changes can be monitored, differentiated, and characterized over time.",
+        "image": "assets/mission/LS8.jpg",
+        "launch": "April 15, 1999",
+        "name": "LANDSAT-7",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/landsat/main/index.html"
+    },
+    "LS8": {
+        "description": "Landsat is observing and measuring Earth's continental and coastal landscapes at a scale where human impacts and natural changes can be monitored, differentiated, and characterized over time.",
+        "image": "assets/mission/LS8.jpg",
+        "launch": "February 11, 2013",
+        "name": "LANDSAT-8",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/landsat/main/index.html"
+    },
+    "MEA": {
+        "description": "The Metop satellites are series of satellites dedicated to near-real-time operational meteorology observations.",
+        "image": "assets/mission/MEA.jpg",
+        "launch": "October 19, 2006",
+        "name": "Metop-A",
+        "cid": "",
+        "url": "http://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+    },
+    "MEB": {
+        "description": "The Metop satellites are series of satellites dedicated to near-real-time operational meteorology observations.",
+        "image": "assets/mission/MEB.jpg",
+        "launch": "September 17, 2012",
+        "name": "Metop-B",
+        "cid": "",
+        "url": "http://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+    },
+    "MEC": {
+        "description": "The Metop satellites are series of satellites dedicated to near-real-time operational meteorology observations.",
+        "image": "",
+        "launch": "October 2018",
+        "name": "Metop-C",
+        "cid": "",
+        "url": "http://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/index.html"
+    },
+    "MMS": {
+        "description": "MMS consists of four identical spacecraft that investigate how the Sun's and Earth's magnetic fields connect and disconnect, explosively transferring energy from one to the other.",
+        "image": "assets/mission/MMS.jpg",
+        "launch": "March 13, 2015",
+        "name": "Magnetospheric Multiscale Mission",
+        "cid": "MMS 1",
+        "url": "https://mms.gsfc.nasa.gov/"
+    },
+    "NPP": {
+        "description": "NPP provides atmospheric and sea surface temperatures, humidity sounding, land and ocean biological productivity, and cloud and aerosol properties to help us understand, monitor, and predict the course of long-term climate change AND short-term weather conditions.",
+        "image": "assets/mission/NPP.jpg",
+        "launch": "October 28, 2011",
+        "name": "Suomi National Polar-orbiting Parn",
+        "cid": "SUOMI NPP",
+        "url": "https://www.nasa.gov/mission_pages/NPP/main/index.html"
+    },
+    "NUSTAR": {
+        "description": "This is the first orbiting telescopes to focus light in the high energy X-ray region of the electromagnetic spectrum, which helps us study collapsed stars, black holes, and supernova remnants.",
+        "image": "assets/mission/NUSTAR.jpg",
+        "launch": "October 28, 2011",
+        "name": "Nuclear Spectroscopic Telescope Array",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/nustar/main/"
+    },
+    "OCO-2": {
+        "description": "Orbiting Carbon Observatory (OCO)-2 is NASA's first dedicated Earth remote sensing satellite to study atmospheric carbon dioxide from space.",
+        "image": "assets/mission/OC2.jpg",
+        "launch": "July 2014",
+        "name": "Orbiting Carbon Observatory 2",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/oco2/index.html"
+    },
+    "OR7": {
+        "description": "Cygnus Commercial Resupply Services (CRS) missions are ISS cargo resupply missions using Orbital ATK's Cygnus spacecraft.",
+        "image": "assets/mission/Cygnus.jpg",
+        "launch": "April 18, 2017",
+        "name": "Cygnus CRS OA-7",
+        "cid": "",
+        "url": "https://www.orbitalatk.com/news-room/feature-stories/OA7-Mission-Page/default.aspx?prid=180"
+    },
+    "QUIKSCAT": {
+        "description": "QuikSCAT mission is intended to record sea-surface wind speed and direction data under all weather and cloud conditions over Earth's oceans.",
+        "image": "assets/mission/QST.jpg",
+        "launch": "June 20, 1999",
+        "name": "QuikSCAT",
+        "cid": "",
+        "url": "http://science.nasa.gov/missions/quikscat/"
+    },
+    "SCISAT": {
+        "description": "SCISAT helps a team of Canadian and international scientists improve their understanding of the depletion of the ozone layer, with a special emphasis on the changes occurring over Canada and in the Arctic.",
+        "image": "assets/mission/SCI.jpg",
+        "launch": "August 13, 2003",
+        "name": "SCISAT",
+        "cid": "SCISAT 1",
+        "url": "http://www.asc-csa.gc.ca/eng/satellites/scisat/"
+    },
+    "SMAP": {
+        "description": "Soil Moisture Active Passive is an orbiting observatory measuring the amount of water in the top 5 cm of soil everywhere on the Earth's surface.",
+        "image": "assets/mission/SMP.jpg",
+        "launch": "July 15, 2015",
+        "name": "Soil Moisture Active Passive",
+        "cid": "",
+        "url": "http://www.nasa.gov/smap/"
+    },
+    "SOLAR-B": {
+        "description": "SOLAR-B is a highly sophisticated observational satellite equipped with three advanced solar telescopes to explore the magnetic fields of the Sun.  It consists of a coordinated set of optical, extreme ultraviolet (EUV), and x-ray instruments to investigate the interaction between the Sun's magnetic field and it's corona.",
+        "image": "assets/mission/SLRB.jpg",
+        "launch": "September 22, 2006",
+        "name": "Hinode",
+        "cid": "HINODE (SOLAR-B)",
+        "url": "http://www.nasa.gov/mission_pages/solar-b/index.html"
+    },
+    "SORCE": {
+        "description": "SORCE measures incoming X-ray, ultraviolet, visible, near-infrared, and total solar radiation to understand how the sun affects our climate.",
+        "image": "assets/mission/SOURCE.jpg",
+        "launch": "January 25, 2003",
+        "name": "Solar Radiation and Climate Experiment",
+        "cid": "",
+        "url": "http://lasp.colorado.edu/home/sorce/"
+    },
+    "SOYUZ": {
+        "description": "The Soyuz carries people and supplies to and from the international space station.",
+        "image": "assets/mission/SOYUZ.jpg",
+        "launch": "periodic launches",
+        "name": "SOYUZ",
+        "cid": "",
+        "url": "https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-the-soyuz-spacecraft-k-4"
+    },
+    "STPSAT-5": {
+        "description": "STPSat-5 satellite helps advance the DOD’s understanding of the space environment, which will enable and support the development of future national security space systems for the United States.",
+        "image": "assets/mission/STPSAT5.png",
+        "launch": "June 5, 2018",
+        "name": "Space Test Program Sat-5",
+        "cid": "",
+        "url": "https://ti.arc.nasa.gov/news/STPSat-5-Ground-Systems-testing/"
+    },
+    "SWAS": {
+        "description": "SWAS studies the chemical composition, energy balance and structure of interstellar clouds and the processes that lead to the formation of stars and planets.",
+        "image": "assets/mission/SWAS.jpg",
+        "launch": "December 5, 1998",
+        "name": "Submillimeter Wave Astronomy Satellite",
+        "cid": "",
+        "url": "https://www.cfa.harvard.edu/swas/"
+    },
+    "SWIFT": {
+        "description": "A first-of-its-kind multi-wavelength observatory dedicated to the study of gamma-ray burst (GRB) science.  Its three instruments work together to observe GRBs and afterglows in the gamma-ray, S-ray, ultraviolet, and optical wavebands.",
+        "image": "assets/mission/SWIFT.jpg",
+        "launch": "Nov. 20, 2004",
+        "name": "Swift",
+        "cid": "",
+        "url": "https://www.nasa.gov/mission_pages/swift/main"
+    },
+    "TDRS-1": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen1.jpg",
+        "launch": "April 4, 1983",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-10": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen2.jpg",
+        "launch": "December 4, 2002",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-11": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen3.jpg",
+        "launch": "January 30, 2013",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-12": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen3.jpg",
+        "launch": "January 23, 2014",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-13": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen3.jpg",
+        "launch": "August 18, 2017",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-3": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen1.jpg",
+        "launch": "September 29, 1988",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-4": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen1.jpg",
+        "launch": "March 13, 1989",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-5": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen1.jpg",
+        "launch": "August 2, 1991",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-6": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen1.jpg",
+        "launch": "January 13, 1993",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-7": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen1.jpg",
+        "launch": "July 13, 1995",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-8": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen2.jpg",
+        "launch": "June 30, 2000",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "TDRS-9": {
+        "description": "TDRS satellites are part of a collection of geosynchronous telecommunications satellites that support NASA Missions with the transmission of data to the ground.",
+        "image": "assets/mission/TDRS-gen2.jpg",
+        "launch": "March 8, 2002",
+        "name": "Tracking and Data Relay Satellite",
+        "cid": "",
+        "url": "https://www.nasa.gov/directorates/heo/scan/services/networks/txt_tdrs.html"
+    },
+    "THA": {
+        "description": "Aims to determine what physical process in near-Earth space initiates the violent eruptions of the aurora that occur during substorms in the Earth's magnetosphere.",
+        "image": "assets/mission/THA.jpg",
+        "launch": "Feb. 17, 2007",
+        "name": "THEMIS-A",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/artemis/news/dead-walking.html"
+    },
+    "THB": {
+        "description": "THEMIS aims to determine what physical process in near-Earth space initiates the violent eruptions of the aurora that occur during substorms in the Earth's magnetosphere.",
+        "image": "assets/mission/THB.jpg",
+        "launch": "Feb. 17, 2007",
+        "name": "THEMIS-B",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/artemis/news/dead-walking.html"
+    },
+    "THC": {
+        "description": "THEMIS aims to determine what physical process in near-Earth space initiates the violent eruptions of the aurora that occur during substorms in the Earth's magnetosphere.",
+        "image": "assets/mission/THC.jpg",
+        "launch": "Feb. 17, 2007",
+        "name": "THEMIS-C",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/themis/mission/index.html"
+    },
+    "THD": {
+        "description": "THEMIS aims to determine what physical process in near-Earth space initiates the violent eruptions of the aurora that occur during substorms in the Earth's magnetosphere.",
+        "image": "assets/mission/THD.jpg",
+        "launch": "Feb. 17, 2007",
+        "name": "THEMIS-D",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/themis/mission/index.html"
+    },
+    "THE": {
+        "description": "THEMIS aims to determine what physical process in near-Earth space initiates the violent eruptions of the aurora that occur during substorms in the Earth's magnetosphere.",
+        "image": "assets/mission/THE.jpg",
+        "launch": "Feb. 17, 2007",
+        "name": "THEMIS-E",
+        "cid": "",
+        "url": "http://www.nasa.gov/mission_pages/themis/mission/index.html"
+    },
+    "TRACE": {
+        "description": "TRACE is a satellite mission designed to deepen understanding of our dynamic sun’s activity, by exploring the connections between fine-scale magnetic fields and the associated grand-scale plasma structures on the sun.",
+        "image": "assets/mission/TRACE.jpg",
+        "launch": "April 1, 1998",
+        "name": "Transition Region and Coronal Explorer",
+        "cid": "",
+        "url": "https://science.nasa.gov/missions/trace"
+    },
+    "TRMM": {
+        "description": "The Tropical Rainfall Measuring Mission was a joint space mission between NASA and the Japan Aerospace Exploration Agency designed to monitor and study tropical rainfall.",
+        "image": "assets/mission/TRMM.jpg",
+        "launch": "November 27, 1997",
+        "name": "Tropical Rainfall Measuring Mission",
+        "cid": "",
+        "url": "https://trmm.gsfc.nasa.gov/"
+    },
+    "WIRE": {
+        "description": "WIRE was originally designed to study startbusrt galaxies, but failed soon after launch due to a malfunction that caused the space telescope's coolant to be rapidly depleted. It did, however, reach Earth orbit and was instead used for astroseismology, which involved measuring the oscillations of nearby stars to examine their structure.",
+        "image": "assets/mission/WIRE.jpg",
+        "launch": "March 5, 1999",
+        "name": "Wide-Field Infrared Explorer",
+        "cid": "WISE",
+        "url": "https://www.jpl.nasa.gov/missions/wide-field-infrared-explorer-wire/"
+    }
+}
