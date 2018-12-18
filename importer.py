@@ -18,16 +18,41 @@ czml_collection = db['czml']
 
 # Scrape CelesTrak for NORAD TLEs
 norad_page_text = requests.get(
-    "https://celestrak.com/NORAD/elements/master.php").text
-soup = BeautifulSoup(norad_page_text, features="html.parser")
-txt_links = soup.select("a[href*=.txt]")
-for link in txt_links:
-    filename = link.get("href")
-    tle_file = requests.get(
-        "https://celestrak.com/NORAD/elements/" + filename).text
-    parsed = json.loads(tle2czml.tles_to_czml(tle_file, silent=True))
-    for entry in parsed:
-        czml_collection.replace_one(
-            {'id': entry['id']}, entry, upsert=True)
+    "https://celestrak.com/pub/satcat.txt").text
+with open(norad_page_text) as fp:  
+   line = fp.readline()
+   print(line)
+   #while line:
+    #   cnt = 1
+     #  print("Line {}: {}".format(cnt, line.strip()))
+      # line = fp.readline()
+       #cnt += 1
+       #print(cnt)
 
-czml_collection.create_index([('id', TEXT)])
+#dataDict = dict.fromkeys(['intDes','norad','D','name','source','launchDate','launchSite','decayDate','status','TLE1','TLE2','TLE3','TLE4','TLE5','TLE'])
+
+#data = norad_page_text.split()
+#for key in dataDict:
+ #   while i<10:
+  #      dataDict['key']=data[i]
+   #     i+=1
+#print(dataDict)
+#print(dataDict['name'])
+#for text in data:
+    
+ #      if text.isnumeric():
+  #         if len(text) == 6:
+           
+   #         filename= text
+
+            #print(filename)
+    #        tle_file = requests.get(
+     #   "https://celestrak.com/satcat/tle.php?CATNR=" + filename).text
+      #      print(tle_file)
+       #     parsed = json.loads(tle2czml.tles_to_czml(tle_file, silent=True))
+            
+#for entry in parsed:#
+ #   czml_collection.replace_one(
+  #  {'id': entry['id']}, entry, upsert=True)
+
+#czml_collection.create_index([('id', TEXT)])
