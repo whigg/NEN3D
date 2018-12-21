@@ -17,11 +17,28 @@ db = mongo_client.get_database()
 czml_collection = db['czml']
 
 # Scrape CelesTrak for NORAD TLEs
+entries ={}
+i = 0
 norad_page_text = requests.get(
     "https://celestrak.com/pub/satcat.txt").text
-with open(norad_page_text) as fp:  
-   line = fp.readline()
-   print(line)
+f = open("files.txt", "r+")
+f.write(norad_page_text)
+with open("files.txt") as fa:
+    for line in fa:
+        entries[i] = line
+        i +=1
+f.close()
+print(i)
+print(entries[42589])
+
+#line = norad_page_text.readline()
+
+#    entries[i] = line
+    
+#    i += 1
+#print(entries[10])
+#fp.close()
+#print("o")
    #while line:
     #   cnt = 1
      #  print("Line {}: {}".format(cnt, line.strip()))
