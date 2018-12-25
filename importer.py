@@ -3,8 +3,10 @@ import os
 
 import requests
 import tle2czml
+import sats.json
 from bs4 import BeautifulSoup
 from pymongo import TEXT, MongoClient
+from file_read_backwards import FileReadBackwards
 
 mongo_uri = "mongodb://localhost:27017/orbits"
 try:
@@ -18,58 +20,32 @@ czml_collection = db['czml']
 
 # Scrape CelesTrak for NORAD TLEs
 entries ={}
-i = 0
 norad_page_text = requests.get(
     "https://celestrak.com/pub/satcat.txt").text
 f = open("files.txt", "r+")
 f.write(norad_page_text)
-with open("files.txt") as fa:
+i = 0
+#with open("files.txt") as fa:
+with FileReadBackwards("files.txt", encoding="utf-8") as fa:
     for line in fa:
-        entries[i] = line
+        data = line.split()
+        key, values = i, data[0:15]
+        
+        entries[key] = values
+        #if entries[i][3] == sats in satellites || sats.cid in satellites:
+        tle_file = requests.get("https://celestrak.com/satcat/tle.php?CATNR=" + entries[i][1]).text
+        soup = BeautifulSoup(tle_file, features="html.parser")
+        tle_txt = soup.select("pre")
         i +=1
+        for line in tle_txt:
+            filename = soup.pre.text
+    #print(filename.startswith( '1'))
+    #print(filename)
+            parsed = json.loads(tle2czml.tles_to_czml(filename, silent=True))
+        for entry in parsed:
+            czml_collection.replace_one(
+                {'id': entry['id']}, entry, upsert=True)
+    
+
+czml_collection.create_index([('id', TEXT)])
 f.close()
-print(i)
-print(entries[42589])
-
-#line = norad_page_text.readline()
-
-#    entries[i] = line
-    
-#    i += 1
-#print(entries[10])
-#fp.close()
-#print("o")
-   #while line:
-    #   cnt = 1
-     #  print("Line {}: {}".format(cnt, line.strip()))
-      # line = fp.readline()
-       #cnt += 1
-       #print(cnt)
-
-#dataDict = dict.fromkeys(['intDes','norad','D','name','source','launchDate','launchSite','decayDate','status','TLE1','TLE2','TLE3','TLE4','TLE5','TLE'])
-
-#data = norad_page_text.split()
-#for key in dataDict:
- #   while i<10:
-  #      dataDict['key']=data[i]
-   #     i+=1
-#print(dataDict)
-#print(dataDict['name'])
-#for text in data:
-    
- #      if text.isnumeric():
-  #         if len(text) == 6:
-           
-   #         filename= text
-
-            #print(filename)
-    #        tle_file = requests.get(
-     #   "https://celestrak.com/satcat/tle.php?CATNR=" + filename).text
-      #      print(tle_file)
-       #     parsed = json.loads(tle2czml.tles_to_czml(tle_file, silent=True))
-            
-#for entry in parsed:#
- #   czml_collection.replace_one(
-  #  {'id': entry['id']}, entry, upsert=True)
-
-#czml_collection.create_index([('id', TEXT)])

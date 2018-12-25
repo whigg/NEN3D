@@ -25,10 +25,11 @@ for link in txt_links:
     filename = link.get("href")
     tle_file = requests.get(
         "https://celestrak.com/NORAD/elements/" + filename).text
-    print(tle_file)
+    #print(tle_file)
     parsed = json.loads(tle2czml.tles_to_czml(tle_file, silent=True))
-    for entry in parsed:
-        czml_collection.replace_one(
-            {'id': entry['id']}, entry, upsert=True)
+    #print(parsed)
+    #for entry in parsed:
+     #  czml_collection.replace_one(
+      #    {'id': entry['id']}, entry, upsert=True)
 
-czml_collection.create_index([('id', TEXT)])
+#czml_collection.create_index([('id', TEXT)])

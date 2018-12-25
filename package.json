@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "cesium": "^1.50.0"
+    "cesium": "^1.52.0"
   },
   "devDependencies": {},
   "scripts": {

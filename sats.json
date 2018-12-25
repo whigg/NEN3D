@@ -108,7 +108,7 @@
         "image": "assets/mission/EO1.jpg",
         "launch": "November 21, 2000",
         "name": "Earth Observing-1",
-        "cid": "",
+        "cid": "EO-1",
         "url": "http://science.nasa.gov/missions/eo-1/"
     },
     "FGST": {
@@ -164,7 +164,7 @@
         "image": "assets/mission/GPB.jpg",
         "launch": "April 20, 2004",
         "name": "Gravity Probe B",
-        "cid": "",
+        "cid": "GP-B",
         "url": "https://www.nasa.gov/mission_pages/gpb/index.html"
     },
     "GPM": {
@@ -524,7 +524,7 @@
         "image": "assets/mission/THB.jpg",
         "launch": "Feb. 17, 2007",
         "name": "THEMIS-B",
-        "cid": "",
+        "cid": "ARTEMIS P1 (THEMIS B)",
         "url": "http://www.nasa.gov/mission_pages/artemis/news/dead-walking.html"
     },
     "THC": {
@@ -532,7 +532,7 @@
         "image": "assets/mission/THC.jpg",
         "launch": "Feb. 17, 2007",
         "name": "THEMIS-C",
-        "cid": "",
+        "cid": "ARTEMIS P2 (THEMIS C)",
         "url": "http://www.nasa.gov/mission_pages/themis/mission/index.html"
     },
     "THD": {
